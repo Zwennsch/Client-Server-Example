@@ -40,7 +40,7 @@ public class ClientApp extends Application {
     }
 
     private Parent createContent() {
-        View view = new View();
-        return view;
+        var controller = new LocalController();
+        return new View(controller);
     }
 }
