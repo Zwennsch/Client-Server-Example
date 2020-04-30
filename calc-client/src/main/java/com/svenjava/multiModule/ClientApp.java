@@ -40,7 +40,7 @@ public class ClientApp extends Application {
     }
 
     private Parent createContent() {
-        var controller = new LocalController();
+        var controller = new RemoteController();
         return new View(controller);
     }
 }

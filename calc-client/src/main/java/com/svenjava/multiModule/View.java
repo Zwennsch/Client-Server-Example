@@ -9,7 +9,7 @@ import javafx.scene.text.Text;
 public class View extends VBox {
     private Controller controller;
 
-    public View(LocalController controller){
+    public View(Controller controller){
         this.controller = controller;
         var field1 = new TextField();
         var field2 = new TextField();
